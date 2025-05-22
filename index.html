@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santosh Reddy - Web Developer Portfolio</title>
+    <link rel="shortcut icon" href="img/resume.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Beau Rivage' rel='stylesheet'>
+</head>
+
+<body>
+    <!-- Background elements -->
+    <div class="particles" id="particles"></div>
+    <div class="grid-overlay"></div>
+    <div class="glow-effect"></div>
+
+    <!-- Corner accents -->
+    <div class="corner-accent top-left"></div>
+    <div class="corner-accent bottom-right"></div>
+
+    <!-- Header -->
+    <header>
+        <h2 class="logo">Santosh Reddy</h2>
+        <ul class="nav-links">
+            <div class="close-sidebar" id="close-sidebar">✖</div>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects-Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div id="hamburger">☰</div>
+    </header>
+
+    <!-- Settings -->
+    <div class="settings">
+        <button id="color-btn" class="settings-btn rotate">⚙</button>
+        <div id="color-options" class="color-options hidden">
+            <span class="color-circle red" data-color="#FF5733"></span>
+            <span class="color-circle green" data-color="#27AE60"></span>
+            <span class="color-circle blue" data-color="#2980B9"></span>
+            <span class="color-circle pink" data-color="#E91E63"></span>
+            <span class="color-circle purple" data-color="#9B59B6"></span>
+        </div>
+        <button id="theme-btn" class="settings-btn">🌙</button>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Hi, I'm <span class="red-text">Mandati Santosh</span></h1>
+                    <h2>I'm a&nbsp; <span class="profession-text" id="profession-text"></span><span
+                            class="cursor">|</span></h2>
+                    <p>I'm a web designer with extensive experience for over 6 Months. My expertise is in website and
+                        graphic design.</p>
+                    <a href="#about" class="btn">More About Me</a>
+
+                    <div class="tech-icons">
+                        <i class="fab fa-html5 tech-icon"></i>
+                        <i class="fab fa-css3-alt tech-icon"></i>
+                        <i class="fab fa-js tech-icon"></i>
+                        <i class="fab fa-react tech-icon"></i>
+                        <i class="fab fa-python tech-icon"></i>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="img/mine.png" alt="Profile Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About <span class="red-text">Me</span></h2>
+
+            <div class="about-content">
+                <div class="about-info">
+                    <h3>Mandati Santosh</h3>
+                    <h4 class="profession">Web Developer | Designer</h4>
+                    <p>I am a passionate web developer with a strong background in front-end technologies.
+                        I love creating responsive and interactive websites with smooth animations and elegant designs.
+                    </p>
+
+                    <div class="personal-info">
+                        <h3>Personal Info</h3>
+                        <div class="info-grid">
+                            <p><strong>Date of Birth:</strong> 27th&nbsp;Feb 2005</p>
+                            <p><strong>Website:</strong> https://santoshred8.github.io/portfolio/</p>
+                            <p><strong>Degree:</strong> B.Tech</p>
+                            <p><strong>City:</strong> Khammam, Telangana</p>
+                            <p><strong>Age:</strong> 20</p>
+                            <p><strong>Email:</strong> santoshreddymandati@gmail.com</p>
+                            <p><strong>Phone:</strong> +91&nbsp;852231487</p>
+                            <p><strong>Freelance:</strong> Available</p>
+                        </div>
+                    </div>
+
+                    <div class="buttons">
+                        <a href="#contact" class="btn hire-me">Hire Me</a>
+                        <a href="img/resume_mandati_santosh.pdf" download class="btn download-cv">Download CV</a>
+                    </div>
+                </div>
+
+                <div class="skills-section">
+                    <div class="skills">
+                        <h3>Skills</h3>
+                        <div class="skill">
+                            <p>HTML <span class="percentage">90%</span></p>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <p>CSS <span class="percentage">85%</span></p>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <p>JavaScript <span class="percentage">75%</span></p>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <p>Python <span class="percentage">80%</span></p>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <p>DSA <span class="percentage">70%</span></p>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 70%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline">
+                <h3 class="section-title">Education</h3>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="date">📅 2022 - 2026</span>
+                        <h3 class="degree">Bachelor of Technology</h3>
+                        <p>Currently, I am in my 3rd year of B.Tech at Dhanalakshmi Srinivasan University (DSU), Trichy,
+                            Tamil Nadu.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="date">📅 2020 - 2022</span>
+                        <h3 class="degree">Intermediate : XI - XII</h3>
+                        <p>I pursued Intermediate at Sri Chaitanya Junior College, Khammam, where I secured 97.2%.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="date">📅 2019 - 2020</span>
+                        <h3 class="degree">Secondary School Certificate (SSC) : X </h3>
+                        <p>I completed my schooling at New World High School, Khammam, with 100% in my Class 10th board
+                            exams.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section Placeholder -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">My <span class="red-text">Services</span></h2>
+
+            <!-- Original service boxes -->
+            <div class="services-grid">
+                <div class="service-box">
+                    <i class="fas fa-code"></i>
+                    <h3 class="service-title">Frontend Development</h3>
+                    <p>Building interactive and responsive websites using HTML, CSS, and JavaScript.</p>
+                </div>
+                <div class="service-box">
+                    <i class="fas fa-palette"></i>
+                    <h3 class="service-title">UI/UX Design</h3>
+                    <p>Designing visually appealing and user-friendly interfaces.</p>
+                </div>
+                <div class="service-box">
+                    <i class="fab fa-js"></i>
+                    <h3 class="service-title">JavaScript Development</h3>
+                    <p>Creating dynamic and interactive web applications using JavaScript and its frameworks.</p>
+                </div>
+                <div class="service-box">
+                    <i class="fab fa-react tech-icon"></i>
+                    <h3 class="service-title">React.js Development</h3>
+                    <p>Developing modern single-page applications (SPAs) using React.js.</p>
+                </div>
+                <div class="service-box">
+                    <i class="fab fa-github"></i>
+                    <h3 class="service-title">Version Control</h3>
+                    <p>Managing and collaborating on projects using Git and GitHub.</p>
+                </div>
+                <div class="service-box">
+                    <i class="fab fa-python"></i>
+                    <h3 class="service-title">Python Scripting</h3>
+                    <p>Writing automation scripts and backend logic using Python.</p>
+                </div>
+            </div>
+
+            <!-- Added Process Section -->
+            <div class="process-section">
+                <div class="section-title">
+                    <h2>My <span class="red-text">Process</span></h2>
+                    <p>A systematic approach to delivering exceptional results</p>
+                </div>
+
+                <div class="process-steps">
+                    <div class="process-step">
+                        <div class="step-number">1</div>
+                        <div class="step-title">Discovery</div>
+                        <div class="step-desc">Understanding your goals, requirements, and target audience to create a
+                            solid foundation.</div>
+                    </div>
+
+                    <div class="process-step">
+                        <div class="step-number">2</div>
+                        <div class="step-title">Planning</div>
+                        <div class="step-desc">Creating a detailed roadmap, including sitemap, wireframes, and technical
+                            specifications.</div>
+                    </div>
+
+                    <div class="process-step">
+                        <div class="step-number">3</div>
+                        <div class="step-title">Design</div>
+                        <div class="step-desc">Crafting visually appealing, user-friendly designs that align with your
+                            brand identity.</div>
+                    </div>
+
+                    <div class="process-step">
+                        <div class="step-number">4</div>
+                        <div class="step-title">Development</div>
+                        <div class="step-desc">Building your website using clean, efficient code and best development
+                            practices.</div>
+                    </div>
+
+                    <div class="process-step">
+                        <div class="step-number">5</div>
+                        <div class="step-title">Testing</div>
+                        <div class="step-desc">Rigorous testing across devices and browsers to ensure a flawless
+                            experience.</div>
+                    </div>
+
+                    <div class="process-step">
+                        <div class="step-number">6</div>
+                        <div class="step-title">Launch</div>
+                        <div class="step-desc">Deploying your website and ensuring everything works perfectly in the
+                            live environment.</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Added FAQ Section -->
+            <div class="faq-section">
+                <div class="section-title">
+                    <h2>Frequently <span class="red-text">Asked Questions</span></h2>
+                    <p>Common questions about my web development services</p>
+                </div>
+
+                <div class="faq-items">
+                    <div class="faq-item">
+                        <div class="faq-question">How long does it take to build a website?</div>
+                        <div class="faq-answer">
+                            <p>The timeline varies depending on the complexity of your project. A simple website might
+                                take 2-3 weeks, while more complex projects can take between 1-2 months or more. During
+                                our
+                                initial consultation, I'll provide a more specific timeline based on your requirements.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">What is your pricing structure?</div>
+                        <div class="faq-answer">
+                            <p>I offer both project-based and hourly pricing options. Project-based pricing is
+                                determined after a thorough understanding of your requirements. For maintenance and
+                                ongoing support, I offer monthly retainer packages. Don't worry—I charge eco-friendly,
+                                user-friendly amounts! 😊
+                                Feel free to contact me for a personalized quote tailored to your specific goals.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">Do you provide hosting services?</div>
+                        <div class="faq-answer">
+                            <p>While I don't provide hosting directly, I can recommend reliable hosting providers based
+                                on your needs and budget. I'll also handle the setup and deployment of your website on
+                                your chosen hosting platform.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">Will I be able to update the website myself?</div>
+                        <div class="faq-answer">
+                            <p>Absolutely! Depending on your technical comfort level, I can implement a user-friendly
+                                content management system (CMS) that allows you to make updates without any coding
+                                knowledge. I also provide training to ensure you're comfortable managing your site.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">What technologies do you use?</div>
+                        <div class="faq-answer">
+                            <p>I work with a variety of modern web technologies including HTML5, CSS3, JavaScript
+                                React, Python, and various databases. The specific technologies used for your project
+                                will depend on your requirements and what best serves
+                                your goals.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">Do you offer revisions during the development process?</div>
+                        <div class="faq-answer">
+                            <p>Yes, I include a set number of revisions in every project package to ensure the final
+                                product meets your expectations. I encourage feedback at each stage of development so we
+                                can make adjustments along the way. Additional revisions beyond the included scope can
+                                also be arranged if needed.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA Section -->
+            <div class="cta-section">
+                <h2>Ready to Start Your Project?</h2>
+                <p>Let's discuss how I can help you achieve your web development goals. Contact me today for a free
+                    consultation and quote.</p>
+                <a href="#contact" class="btn">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section Placeholder -->
+    <section id="projects" class="projects">
+        <div class="project container">
+            <h2 class="section-title">My <span class="red-text">Projects</span></h2>
+
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="ui">UI/UX Design</button>
+                <button class="filter-btn" data-filter="portfolio">Portfolio</button>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card" data-category="portfolio">
+                    <div class="project-img">
+                        <img src="img/project-brother-portfolio.png" alt="Project 1">
+                        <div class="project-overlay">
+                            <div class="project-category">Web Development</div>
+                            <div class="project-category">Portfolio</div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Data Engineer Portfolio</h3>
+                        <p class="project-desc">An admin dashboard for e-commerce websites with data visualization and
+                            inventory management features.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link demo-link-1"><i class="fas fa-link"></i> Live Demo</a>
+                            <a href="#" class="project-link github-link" data-has-source="false"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="https://umeshindra123.github.io/portfolio/" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i>Visit</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="ui">
+                    <div class="project-img">
+                        <img src="img/project-plan-example-2.jpg" alt="Project 2">
+                        <div class="project-overlay">
+                            <div class="project-category">UI/UX Design</div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Finance App Interface</h3>
+                        <p class="project-desc">A modern banking application interface designed with user experience and
+                            accessibility in mind.</p>
+                        <div class="project-tech">
+                            <span>Figma</span>
+                            <span>Adobe XD</span>
+                            <span>Prototyping</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link demo-link-2"><i class="fas fa-link"></i> Case Study</a>
+                            <a href="#" class="project-link github-link" data-has-source="false"><i class="fab fa-behance"></i> Behance</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="web">
+                    <div class="project-img">
+                        <img src="img/project-plan-example-2.jpg" alt="Project 3">
+                        <div class="project-overlay">
+                            <div class="project-category">Web Development</div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Weather Dashboard</h3>
+                        <p class="project-desc">An interactive weather application with location-based forecasts and
+                            weather alerts.</p>
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>Weather API</span>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link demo-link-3"><i class="fas fa-link"></i> Live Demo</a>
+                            <a href="#" class="project-link github-link" data-has-source="false"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="portfolio">
+                    <div class="project-img">
+                        <img src="img/project-my-portfolio.png" alt="Project 2">
+                        <div class="project-overlay">
+                            <div class="project-category">Web Development</div>
+                            <div class="project-category">Portfolio</div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Web Developer Portfolio</h3>
+                        <p class="project-desc">Designed and developed a modern, responsive portfolio to showcase my journey, skills, and projects in web development. 🚀 Created with attention to detail, late-night problem-solving ☕, and a love for beautiful, functional design 🎨.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link demo-link-mine" data-has-source="false"><i class="fas fa-link"></i> Live Demo</a>
+                            <a href="#" class="project-link github-link" data-has-source="false"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="https://santoshred8.github.io/portfolio/" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i>Visit</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video Modal (Fullscreen) -->
+                <div id="video-modal-1" class="fullscreen-modal">
+                    <span class="close-modal">&times;</span>
+                    <div class="video-wrapper">
+                        <video id="demo-video" controls>
+                            <source src="img/project-brother-portfolio-demo.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+                
+                <!-- Fullscreen Notification for GitHub -->
+                <div id="github-notification" class="fullscreen-notification">
+                    <div class="notification-content">
+                        <p>This project is private. Source code cannot be shown.</p>
+                    </div>
+                </div>
+
+                <!-- Demo mine Notification for livedemo-->
+                <div id="mine-notification" class="fullscreen-notification">
+                    <div class="notification-content">
+                        <p>You're already on the live demo!😅.  No extra links needed — just scroll and explore! 🎯</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br><br><br>
+
+        <div class="experience container">
+            <h2 class="section-title">Work <span class="red-text">Experience</span></h2>
+
+            <div class="exp-timeline">
+                <div class="exp-timeline-item">
+                    <div class="exp-timeline-content-wrapper">
+                        <div class="exp-timeline-date">Aug 2024 - Sep 2024</div>
+                        <div class="exp-timeline-dot"></div>
+                        <div class="exp-timeline-connector"></div>
+                        <div class="exp-timeline-content">
+                            <h3>Web Development Internship</h3>
+                            <h4>At CodSoft</h4>
+                            <p>I completed an internship at CodSoft, where I worked on three real-world projects. This experience helped me strengthen my frontend development skills and build responsive, interactive web applications.</p>
+                            <div class="exp-timeline-tech-tags">
+                                <span>UI</span>
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="exp-timeline-item">
+                    <div class="exp-timeline-content-wrapper">
+                        <div class="exp-timeline-date">2025</div>
+                        <div class="exp-timeline-dot"></div>
+                        <div class="exp-timeline-connector"></div>
+                        <div class="exp-timeline-content">
+                            <h3>Campus Tour Of DSU</h3>
+                            <h4>Mini-project in College</h4>
+                            <p>During my graduation, I completed a project called 'Campus Tour' for my college. The project focused on creating an interactive and user-friendly platform to showcase the campus facilities, helping new students and visitors explore the college virtually.</p>
+                            <div class="exp-timeline-tech-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>Java</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section Placeholder -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact <span class="red-text">Me</span></h2>
+
+            <div class="contact-content">
+                <div class="contact-info-container">
+                    <p class="tagline">Have You Any Queries? I'm 24/7 Available</p>
+
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div class="contact-item-info">
+                            <h3>Call Me On</h3>
+                            <p>+91 8522931487</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="contact-item-info">
+                            <h3>Location</h3>
+                            <p>Khammam, Telangana</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div class="contact-item-info">
+                            <h3>Email</h3>
+                            <p>santoshreddymandati@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-globe"></i>
+                        <div class="contact-item-info">
+                            <h3>Website</h3>
+                            <p>www.santoshred8.github.io/portfolio</p>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/santosh-reddy-4680b1313?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin-in" ></i></a>
+                        <a href="https://github.com/SantoshRed8" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/santosh_mandati?igsh=MmtoMmIwMTBkemU5" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=8522931487&text=" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100065941196994&mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h3>SEND EMAIL HERE</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="number" class="form-control" id="number" placeholder="Your Number" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="subject" placeholder="Your Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="message" rows="5" placeholder="Your Message"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <h2 class="logo">Santosh <span>Reddy</span></h2>
+            <p>&copy; 2025 Mandati Santosh. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
