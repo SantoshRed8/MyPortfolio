@@ -308,16 +308,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // Contact form submission (if it exists)
-    const contactForm = document.getElementById('contactForm');
-    if (contactForm) {
-        contactForm.addEventListener('submit', (e) => {
-            e.preventDefault();
-            alert('Message sent successfully! (This is a demo)');
-            contactForm.reset();
-        });
-    }
-
     // Update background elements when the window is resized
     window.addEventListener('resize', () => {
         // Clear existing particles
