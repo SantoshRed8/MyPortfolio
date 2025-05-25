@@ -1588,10 +1588,13 @@ footer {
 .footer-content {
     max-width: 800px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
 }
 
 .footer-content p {
     margin-top: 10px;
+    margin-left: -200px;
     /* color: rgba(255, 255, 255, 0.7); */
 }
 
