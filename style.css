@@ -1038,6 +1038,11 @@ header.sticky {
     color: var(--primary-color);
     border-radius: 20px;
     font-size: 0.8rem;
+    font-weight: bolder;
+}
+
+.project-tech span:hover{
+    font-size: 1rem;
 }
 
 .project-links {
@@ -1178,6 +1183,7 @@ header.sticky {
     color: var(--primary-color);
     border-radius: 20px;
     font-size: 0.75rem;
+    font-weight: bolder;
     font-weight: 500;
     letter-spacing: 0.5px;
     transition: all 0.2s ease;
@@ -1185,6 +1191,7 @@ header.sticky {
 
 .exp-timeline-tech-tags span:hover {
     background: rgba(255, 77, 90, 0.25);
+    font-size: 1rem;
 }
 
 /* Animation */
