@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
     createBackgroundElements();
 
     // Profession Text Animation
-    const professions = ['Web Designer', 'UI/UX Designer', 'Frontend Developer'];
+    const professions = ['Web Designer', 'Web Developer', 'Mern Stack Developer', 'UI/UX Designer' ];
     let currentIndex = 0;
     let currentText = '';
     let letterIndex = 0;
@@ -542,41 +542,39 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 });
 
-// Demo Videos
 document.addEventListener('DOMContentLoaded', function () {
-    // Get modal elements
-    const videoModal1 = document.getElementById('video-modal-1');
-    const videoModal2 = document.getElementById('video-modal-2');
-    const videoModal3 = document.getElementById('video-modal-3');
-    const closeModal = document.querySelector('.close-modal');
-    const demoVideo1 = document.getElementById('demo-video-1');
-    const demoVideo2 = document.getElementById('demo-video-2');
-    const demoVideo3 = document.getElementById('demo-video-3');
+    const modals = {
+        1: { modal: document.getElementById('video-modal-1'), video: document.getElementById('demo-video-1') },
+        2: { modal: document.getElementById('video-modal-2'), video: document.getElementById('demo-video-2') },
+        3: { modal: document.getElementById('video-modal-3'), video: document.getElementById('demo-video-3') },
+        4: { modal: document.getElementById('video-modal-4'), video: document.getElementById('demo-video-4') },
+        5: { modal: document.getElementById('video-modal-5'), video: document.getElementById('demo-video-5') },
+    };
 
-    // Show modal when Live Demo is clicked
-    document.querySelectorAll('.demo-link-1').forEach(link => {
-        link.addEventListener('click', function (e) {
-            e.preventDefault();
-            videoModal1.style.display = 'block';
-            demoVideo1.play();
+    Object.keys(modals).forEach(index => {
+        const demoLinks = document.querySelectorAll(`.demo-link-${index}`);
+        const { modal, video } = modals[index];
+
+        demoLinks.forEach(link => {
+            link.addEventListener('click', function (e) {
+                e.preventDefault();
+                modal.style.display = 'block';
+                video.play();
+            });
+        });
+
+        modal.querySelector('.close-modal').addEventListener('click', function () {
+            modal.style.display = 'none';
+            video.pause();
+            video.currentTime = 0;
+        });
+
+        modal.addEventListener('click', function (e) {
+            if (e.target === modal) {
+                modal.style.display = 'none';
+                video.pause();
+                video.currentTime = 0;
+            }
         });
     });
-
-    // Close modal when X is clicked
-    closeModal.addEventListener('click', function () {
-        videoModal1.style.display = 'none';
-        demoVideo1.pause();
-        demoVideo1.currentTime = 0;
-    });
-
-    // Close when clicking outside the video area
-    videoModal1.addEventListener('click', function (e) {
-        if (e.target === videoModal1) {
-            videoModal1.style.display = 'none';
-            demoVideo2.pause();
-            demoVideo3.currentTime = 0;
-        }
-    });
 });
-
-  
