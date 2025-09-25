@@ -4,18 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- Title -->
     <title>Mandati Santosh | Frontend Developer Portfolio</title>
+    <!-- Font Awesome CDN (Latest) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- SEO Meta Tags -->
-    <meta name="description" content="I am Mandati Santosh, a full-stack developer skilled in HTML, CSS, JavaScript, React, NodeJS, Express and MongoDB. Explore my portfolio, projects, and skills.">
-    <meta name="keywords" content="Mandati Santosh, Santosh Reddy, Frontend Developer,full-stack Web Developer, Web Developer, Portfolio, HTML, CSS, JavaScript, React">
+    <meta name="description"
+        content="I am Mandati Santosh, a full-stack developer skilled in HTML, CSS, JavaScript, React, NodeJS, Express and MongoDB. Explore my portfolio, projects, and skills.">
+    <meta name="keywords"
+        content="Mandati Santosh, Santosh Reddy, Frontend Developer,full-stack Web Developer, Web Developer, Portfolio, HTML, CSS, JavaScript, React">
     <meta name="author" content="Mandati Santosh">
 
     <!-- Open Graph (Facebook, LinkedIn, WhatsApp Preview) -->
     <meta property="og:title" content="Mandati Santosh | full-stack Developer Portfolio">
-    <meta property="og:description" content="Explore the portfolio of Mandati Santosh - full-stack Developer skilled in modern web technologies.">
+    <meta property="og:description"
+        content="Explore the portfolio of Mandati Santosh - full-stack Developer skilled in modern web technologies.">
     <meta property="og:image" content="img/resume.png">
     <meta property="og:url" content="https://santoshred8.github.io/MyPortfolio/">
     <meta property="og:type" content="website">
@@ -23,7 +30,8 @@
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Mandati Santosh | full-stack Developer Portfolio">
-    <meta name="twitter:description" content="Explore the portfolio of Mandati Santosh - full-stack Developer skilled in HTML, CSS, JavaScript, and React.">
+    <meta name="twitter:description"
+        content="Explore the portfolio of Mandati Santosh - full-stack Developer skilled in HTML, CSS, JavaScript, and React.">
     <meta name="twitter:image" content="img/resume.png">
 
     <!-- Structured Data (Schema.org) -->
@@ -93,7 +101,7 @@
                     <h1>Hi, I'm <span class="red-text">Mandati Santosh</span></h1>
                     <h2>I'm a&nbsp; <span class="profession-text" id="profession-text"></span><span
                             class="cursor">|</span></h2>
-                    <p>I'm a web developer with extensive experience for over 9 Months. My expertise is in website and
+                    <p>I'm a web developer with extensive experience for over 1year. My expertise is in website and
                         graphic design.</p>
                     <a href="#about" class="btn">More About Me</a>
 
@@ -102,7 +110,7 @@
                         <i class="fab fa-css3-alt tech-icon"></i>
                         <i class="fab fa-js tech-icon"></i>
                         <i class="fab fa-react tech-icon"></i>
-                        <i class="fab fa-python tech-icon"></i>
+                        <i class="fab fa-java tech-icon"></i>
                     </div>
                 </div>
                 <div class="image-container">
@@ -220,17 +228,30 @@
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
                         <span class="date">📅 2022 - 2026</span>
-                        <h3 class="degree">Bachelor of Technology</h3>
-                        <p>Currently, I am in my final year of B.Tech at Dhanalakshmi Srinivasan University (DSU), Trichy,
+                        <div class="study">
+                            <h3 class="degree">Bachelor of Technology</h3>
+                            <a href="#" class="btn-small" id="ongoing-msg" target="_blank">Checkout Certificates</a>
+                        </div>
+                        <p>Currently, I am in my final year of B.Tech at Dhanalakshmi Srinivasan University (DSU),
+                            Trichy,
                             Tamil Nadu.</p>
                     </div>
+
+                    <!-- Toast container -->
+                    <div id="toast" class="toast">😂 It's an ongoing course, buddy!<br>Be patient — good things take
+                        time!</div>
+
                 </div>
 
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
                         <span class="date">📅 2020 - 2022</span>
-                        <h3 class="degree">Intermediate : XI - XII</h3>
+                        <div class="study">
+                            <h3 class="degree">Intermediate : XI - XII</h3>
+                            <a href="https://drive.google.com/file/d/1O0Znoc7FHfDycc7el6CSKlHNNJBh3Ear/view?usp=sharing"
+                                class="btn-small" target="_blank">Checkout Certificates</a>
+                        </div>
                         <p>I pursued Intermediate at Sri Chaitanya Junior College, Khammam, where I secured 97.2%.</p>
                     </div>
                 </div>
@@ -239,7 +260,11 @@
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
                         <span class="date">📅 2019 - 2020</span>
-                        <h3 class="degree">Secondary School Certificate (SSC) : X </h3>
+                        <div class="study">
+                            <h3 class="degree">Secondary School Certificate (SSC) : X </h3>
+                            <a href="https://drive.google.com/file/d/15YdZsC03CXXYgeOxkBnVzyhJUWkDiyNy/view?usp=sharing"
+                                class="btn-small" target="_blank">Checkout Certificates</a>
+                        </div>
                         <p>I completed my schooling at New World High School, Khammam, with 100% in my Class 10th board
                             exams.</p>
                     </div>
@@ -263,7 +288,8 @@
                 <div class="service-box">
                     <i class="fas fa-server"></i>
                     <h3 class="service-title">Backend Development</h3>
-                    <p>Building secure and efficient backend systems to handle server logic, databases, and API integrations.</p>
+                    <p>Building secure and efficient backend systems to handle server logic, databases, and API
+                        integrations.</p>
                 </div>
                 <div class="service-box">
                     <i class="fas fa-palette"></i>
@@ -397,7 +423,8 @@
                         <div class="faq-question">What technologies do you use?</div>
                         <div class="faq-answer">
                             <p>I work with a variety of modern web technologies including HTML5, CSS3, JavaScript
-                                React, Node, Express and various databases. The specific technologies used for your project
+                                React, Node, Express and various databases. The specific technologies used for your
+                                project
                                 will depend on your requirements and what best serves
                                 your goals.</p>
                         </div>
@@ -448,8 +475,12 @@
                     </div>
                     <div class="project-info">
                         <h3 class="project-title">Data Engineer Portfolio</h3>
-                        <p class="project-desc">An admin dashboard for e-commerce websites with data visualization and
-                            inventory management features.</p>
+                        <p class="project-desc">This project is a responsive portfolio website for Umesh Indra, an
+                            aspiring Data Engineer. It highlights his skills, projects, and career goals in a clean, professional
+                            layout. The site features
+                            smooth animations, interactive elements, and optimized responsiveness for all devices,
+                            serving as a digital resume to
+                            showcase his expertise and attract career opportunities.</p>
                         <div class="project-tech">
                             <span>HTML</span>
                             <span>CSS</span>
@@ -474,8 +505,10 @@
                     </div>
                     <div class="project-info">
                         <h3 class="project-title">University Website</h3>
-                        <p class="project-desc">Designed and deployed a dynamic university homepage with responsive UI,
-                            multi-page navigation, and interactive program sections.</p>
+                        <p class="project-desc">This project is a full-stack college website on my Unversity built with React for the frontend and a backend deployed on Render, with
+                        the frontend hosted on Netlify. It includes a modern Home page, About, Academics, Admissions, Departments, Student Life,
+                        a 3D Virtual Campus Tour, and a Contact page with a live contact form. The site is responsive, fast, and designed to
+                        deliver an interactive, real-world college experience online.<p>
                         <div class="project-tech">
                             <span>HTML</span>
                             <span>CSS</span>
@@ -505,8 +538,10 @@
                     </div>
                     <div class="project-info">
                         <h3 class="project-title">Expenses Tracker</h3>
-                        <p class="project-desc">Developed a full-stack expense tracker app (Money Mate) with clean UI
-                            and real-time data handling. Also Data Can be Exported in json file , CSV file & text file.
+                        <p class="project-desc">Developed Money Mate, a full-stack expense tracker app with a clean, responsive UI and real-time data handling. Features
+                        include live filtering, search, interactive expense graphs, and export options in JSON, CSV, and TXT formats. The app is
+                        deployed on Netlify, ensuring smooth performance and accessibility. Designed for easy tracking and visualization of
+                        daily financial activities.
                         </p>
                         <div class="project-tech">
                             <span>HTML</span>
@@ -534,9 +569,9 @@
                     </div>
                     <div class="project-info">
                         <h3 class="project-title">MediBook</h3>
-                        <p class="project-desc">Developed a full-stack Doctor E-Appointment System enabling users to
-                            book appointments, apply as doctors, and manage schedules with authentication and role-based
-                            access control.</p>
+                        <p class="project-desc">Developed a full-stack Doctor E-Appointment System that allows patients to book appointments, doctors to apply and
+                        manage schedules, with authentication and role-based access control. The backend is deployed on Render and the frontend
+                        on Netlify, ensuring secure, scalable, and responsive performance for both patients and doctors.</p>
                         <div class="project-tech">
                             <span>HTML</span>
                             <span>CSS</span>
@@ -567,8 +602,9 @@
                     </div>
                     <div class="project-info">
                         <h3 class="project-title">Virtual-Campus-Tour-DSU</h3>
-                        <p class="project-desc">Created a 3D virtual campus tour using Three.js and Panolens.js.
-                            Includes panoramic scenes, interactive hotspots, and background music.</p>
+                        <p class="project-desc">Created a 3D Virtual Campus Tour using Three.js and Panolens.js, featuring panoramic scenes, interactive hotspots, and
+                        background music for an immersive experience. Built collaboratively with my friends Naveen and Rahul as a mini project
+                        during graduation, and deployed on GitHub for public access.</p>
                         <div class="project-tech">
                             <span>HTML</span>
                             <span>CSS</span>
@@ -598,9 +634,10 @@
                     </div>
                     <div class="project-info">
                         <h3 class="project-title">Web Developer Portfolio</h3>
-                        <p class="project-desc">Designed and developed a modern, responsive portfolio to showcase my
-                            journey, skills, and projects in web development. 🚀 Created with attention to detail,
-                            late-night problem-solving ☕, and a love for beautiful, functional design 🎨.</p>
+                        <p class="project-desc">Designed and developed a modern, responsive portfolio website to showcase my journey, skills, and web development
+                        projects. 🚀 Built with attention to detail, late-night problem-solving ☕, and a passion for functional, aesthetic
+                        design 🎨. The portfolio is fully responsive and deployed on GitHub, serving as my digital identity and professional
+                        presence.</p>
                         <div class="project-tech">
                             <span>HTML</span>
                             <span>CSS</span>
@@ -713,9 +750,9 @@
                                 <span>CSS</span>
                                 <span>JavaScript</span>
                             </div>
-                            <a style="margin-top: 10px;" href="https://github.com/SantoshRed8/CodSoft"
-                                class="project-link github-link" data-has-source="True"><i class="fab fa-github"></i>
-                                GitHub</a>
+                            <a style="margin-top: 10px;" href="https://drive.google.com/file/d/1-tDmMSWnFLGwhIOrhzqhrVWcWZ3hJErj/view?usp=sharing"
+                                class="project-link github-link" data-has-source="true" target="_blank"><i class="fas fa-medal"></i>
+                                Certificate</a>
                         </div>
                     </div>
                 </div>
@@ -750,18 +787,95 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="exp-timeline-item">
+                    <div class="exp-timeline-content-wrapper">
+                        <div class="exp-timeline-date">1st July 2025 - 31st July 2025</div>
+                        <div class="exp-timeline-dot"></div>
+                        <div class="exp-timeline-connector"></div>
+                        <div class="exp-timeline-content">
+                            <h3>Web Design & Development Internship</h3>
+                            <h4>At TechnoHacks</h4>
+                            <p>Completed an internship at TechnoHacks, where I contributed to real-world projects, enhancing my frontend
+                            development skills and gaining hands-on experience in building responsive, interactive web applications. This experience
+                            strengthened my understanding of modern web technologies and best practices in real-world project development.</p>
+                            <div class="exp-timeline-tech-tags">
+                                <span>UI</span>
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <a style="margin-top: 10px;" href="https://drive.google.com/file/d/1y4Wdn3_gKez7qRjqRrDKuu5n_uNAEeXP/view?usp=sharing" class="project-link github-link"
+                                data-has-source="true"><i class="fas fa-award"></i>
+                                Certificate</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="exp-timeline-item">
+                    <div class="exp-timeline-content-wrapper">
+                        <div class="exp-timeline-date">July 2025 - Aug 2025</div>
+                        <div class="exp-timeline-dot"></div>
+                        <div class="exp-timeline-connector"></div>
+                        <div class="exp-timeline-content">
+                            <h3>Web Development Internship</h3>
+                            <h4>At SkillCraft</h4>
+                            <p>Undertook an internship at SkillCraft, actively working on  live projects that enhanced my frontend development
+                            expertise. Gained practical experience in creating responsive, dynamic, and user-friendly web applications, while
+                            applying modern web technologies and best practices in real-world scenarios.</p>
+                            <div class="exp-timeline-tech-tags">
+                                <span>UI</span>
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <a style="margin-top: 10px;" href="https://drive.google.com/file/d/15uH_gv93iH6FwgNEaj-2ZpC-aYpM9RSJ/view?usp=sharing" class="project-link github-link"
+                                data-has-source="true"><i class="fas fa-award"></i>
+                                Certificate</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="exp-timeline-item">
+                    <div class="exp-timeline-content-wrapper">
+                        <div class="exp-timeline-date">Aug 2024 - Sep 2024</div>
+                        <div class="exp-timeline-dot"></div>
+                        <div class="exp-timeline-connector"></div>
+                        <div class="exp-timeline-content">
+                            <h3>Full-Stack Web Development Internship</h3>
+                            <h4>At Cognifyz</h4>
+                            <p>Completed a full-stack Web Development internship at Cognifyz, working on real-world projects that involved frontend and backend
+                            development. Gained hands-on experience in building responsive, dynamic web applications, integrating databases, and
+                            deploying applications. Strengthened skills in React, Node.js, APIs, and modern web development best practices,
+                            contributing to scalable and interactive solutions.</p>
+                            <div class="exp-timeline-tech-tags">
+                                <span>UI</span>
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>NodeJS</span>
+                                <span>Express</span>
+                                <span>MongoDB</span>
+                            </div>
+                            <a style="margin-top: 10px;" href="https://drive.google.com/file/d/1JSmArQY-3kv4g5T6z0oo66lYZbj_vs_W/view?usp=sharing" class="project-link github-link"
+                                data-has-source="true"><i class="fas fa-award"></i>
+                                Certificate</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section Placeholder -->
+    <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
             <h2 class="section-title">Contact <span class="red-text">Me</span></h2>
 
             <div class="contact-content">
+                <!-- Contact Info -->
                 <div class="contact-info-container">
-                    <p class="tagline">Have You Any Queries? I'm 24/7 Available</p>
+                    <b><p class="tagline">Have You Any Queries? I'm 24/7 Available</p></b>
 
                     <div class="contact-item">
                         <i class="fas fa-phone"></i>
@@ -774,8 +888,9 @@
                     <div class="contact-item">
                         <i class="fas fa-map-marker-alt"></i>
                         <div class="contact-item-info">
-                            <h3>Location</h3>
-                            <p>Khammam, Telangana</p>
+                            <h3>My Address</h3>
+                            <p>Santosh Reddy Mandati House,<br>
+                                Khammam, Telangana, India</p>
                         </div>
                     </div>
 
@@ -791,17 +906,18 @@
                         <i class="fas fa-globe"></i>
                         <div class="contact-item-info">
                             <h3>Website</h3>
-                            <p> <a href="https://santoshred8.github.io/MyPortfolio/"
+                            <p><a href="https://santoshred8.github.io/MyPortfolio/"
                                     style="text-decoration: none; color: inherit;">santoshred8.github.io/MyPortfolio</a>
                             </p>
                         </div>
                     </div>
 
+                    <!-- Social Links -->
                     <div class="social-links">
                         <a href="https://www.linkedin.com/in/mandati-santosh" target="_blank"><i
                                 class="fab fa-linkedin-in"></i></a>
                         <a href="https://github.com/SantoshRed8" target="_blank"><i class="fab fa-github"></i></a>
-                        <a href="https://www.instagram.com/the_mandati" target="_blank"><i
+                        <a href="https://www.instagram.com/mandati_sr" target="_blank"><i
                                 class="fab fa-instagram"></i></a>
                         <a href="https://api.whatsapp.com/send?phone=8522931487&text=" target="_blank"><i
                                 class="fab fa-whatsapp"></i></a>
@@ -810,29 +926,38 @@
                     </div>
                 </div>
 
-                <div class="contact-form">
+                <!-- Embedded Google Map -->
+                <div class="contact-map">
+                    <center><b><p class="tagline">Catch Me Here </p></b></center>
+                    <div class="map-container"
+                        style="margin-top:40px; border-radius:10px; overflow:hidden; box-shadow:0 4px 15px rgba(0,0,0,0.2);">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3808.178859400596!2d80.1507748!3d17.355124399999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a345f15e01b5f57%3A0x80ca6d625582771c!2sSantosh%20reddy%20mandati%20house!5e0!3m2!1sen!2sin!4v1758646767818!5m2!1sen!2sin"
+                            width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                
+               
+
+                <!-- Contact Form + Google Map -->
+                <div class="contact-form" style="flex:1;">
                     <h3>SEND EMAIL HERE</h3>
                     <form id="contactForm">
-                        <div class="form-group">
-                            <input type="text" class="form-control" id="name" name="name" placeholder="Your Name"
+                        <div class="form-group"><input type="text" class="form-control" placeholder="Your Name"
                                 required>
                         </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control" id="email" name="email" placeholder="Your Email"
+                        <div class="form-group"><input type="email" class="form-control" placeholder="Your Email"
                                 required>
                         </div>
-                        <div class="form-group">
-                            <input type="tel" class="form-control" id="number" name="number" placeholder="Your Number"
+                        <div class="form-group"><input type="tel" class="form-control" placeholder="Your Number"
                                 required>
                         </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" id="subject" name="subject"
-                                placeholder="Your Subject" required>
+                        <div class="form-group"><input type="text" class="form-control" placeholder="Your Subject"
+                                required>
                         </div>
-                        <div class="form-group">
-                            <textarea class="form-control" id="message" name="message" rows="5"
-                                placeholder="Your Message" required></textarea>
-                        </div>
+                        <div class="form-group"><textarea class="form-control" rows="5" placeholder="Your Message"
+                                required></textarea></div>
                         <button type="submit" class="btn submit-btn">Send Message</button>
                     </form>
                 </div>
@@ -843,7 +968,7 @@
     <!-- Footer -->
     <footer>
         <div class="footer-content">
-            <h2 class="logo"> ---- Santosh Reddy</h2>
+            <h2 class="logo"> --- Santosh Reddy</h2>
             <p>&copy; 2025 Mandati Santosh. All rights reserved.</p>
         </div>
     </footer>

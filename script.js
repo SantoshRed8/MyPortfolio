@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
     createBackgroundElements();
 
     // Profession Text Animation
-    const professions = ['Web Designer', 'Web Developer', 'Mern Stack Developer', 'UI/UX Designer' ];
+    const professions = ['Web Designer', 'Web Developer', 'Mern Stack Developer', 'UI/UX Designer(Basic)' ];
     let currentIndex = 0;
     let currentText = '';
     let letterIndex = 0;
@@ -371,6 +371,19 @@ document.addEventListener('DOMContentLoaded', () => {
     
     
 });
+
+const button = document.getElementById("ongoing-msg");
+    const toast = document.getElementById("toast");
+
+    button.addEventListener("click", function () {
+      toast.classList.add("show");
+
+      // Hide after 5 seconds
+      setTimeout(() => {
+        toast.classList.remove("show");
+      }, 5000);
+    });
+    
 
 // FAQ Functionality
 document.addEventListener('DOMContentLoaded', function () {
